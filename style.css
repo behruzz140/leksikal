@@ -1,0 +1,152 @@
+.navbar-main {
+    background: #01756C;
+}
+
+li>a {
+    width: Hug (66px);
+    height: Hug (27px);
+    color: white;
+    gap: 10px;
+}
+
+li>span {
+    color: white;
+}
+
+/* section-1 start */
+.search-btn>span {
+    color: white;
+}
+
+.search-btn {
+    background: #01756C;
+    border-radius: 100px;
+    gap: 12px;
+    padding: 20px;
+}
+
+.form-1 {
+    width: Fixed (847px);
+    height: Hug (74px);
+    top: 160px;
+    left: 297px;
+    padding: 5px;
+    border-radius: 100px;
+
+}
+
+.form-inner {
+
+    border-radius: 100px;
+    background: grey;
+    width: 847px;
+    height: 74px;
+    background: #faf9f9;
+    margin: 0 auto;
+    margin-top: 80px;
+    box-shadow: 0px 15px 25px 0px #0000001A;
+    padding: 13px;
+}
+
+button {
+    border: none;
+}
+
+input {
+    border: none;
+    background: #FFFFFF;
+
+}
+
+.input-inner {
+    background: none;
+    border: none;
+    width: 100%;
+    margin-left: -25px;
+
+}
+
+.input-inner::placeholder {
+    text-indent: 2px;
+
+}
+
+.result-png {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+
+
+/* <!-- end of section-1  --> */
+
+/* <!-- start of footer section --> */
+
+footer {
+    background: #01756C;
+    padding: 10px;
+    margin-top: 12%;
+
+}
+
+p {
+    color: #fff;
+
+}
+
+.wrap {
+    padding: 15px;
+    text-align: center;
+}
+
+.wrap a {
+    color: #fff;
+}
+
+.hover-fx {
+    /* font-size: 36px; */
+    display: inline-block;
+    cursor: pointer;
+    margin: 15px;
+    width: 50px;
+    height: 50px;
+    /* line-height: 84px; */
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: 300ms;
+}
+
+.hover-fx:after {
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    content: '';
+    box-sizing: content-box;
+    box-shadow: 0 0 0 3px #fff;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 300ms;
+}
+
+.hover-fx:hover {
+    background-color: #9e9e9e;
+    color: #00989A;
+}
+
+.hover-fx:hover:after {
+    opacity: 1;
+    transform: scale(1.15);
+}
+
+
+.foot-icon {
+    margin: 0 auto;
+    margin-top: 12px;
+}
